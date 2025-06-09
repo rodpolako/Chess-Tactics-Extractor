@@ -5,7 +5,7 @@ Online tool that downloads your analyzed Lichess games and uses it to create tac
 
 The idea for this application was inspired by a [video](https://www.youtube.com/watch?v=f8QrRbmaHxE) from Andras Toth on how to improve on your own if you don't have the benefit of a coach.  If you haven't seen this video, I would recommend doing so.
 
-The basic idea that he outlines is that you should go over your games without having the engine immediately show you the best line. He accomplishes this by changing the options to hide this.  After that, as you go through the game analysis, at any point where the engine indicates you made a mistake or blunder and the engine provides an optimal move you would then work out a new line and then check your results.
+The basic idea that he outlines is that you should go over your games without having the engine immediately show you the best line. In the video, he shows how to change the settings to hide this feature.  After that, as you go through the game analysis, at any point where the engine indicates you made a mistake or blunder and the engine provides an optimal move you would then work out a new line and then check your results.
 
 What this application does is go through your Lichess games and generates a PGN with every position in your games where an issue was found. It will indicate in the annotation what you previously played in this position and if the move you made was a mistake or a blunder. 
 
