@@ -28,7 +28,7 @@ If you want to host a copy on your own environment and/or make changes:
 1. Enter in your Lichess User ID in the indicated field.
 ![screenshot](./public/screenshots/step1.png)
 
-2. Set any options you want in order to customize the games that get searched.
+2. (Optional) Set any options you want in order to customize the games that get searched.
 ![screenshot](./public/screenshots/options.png)
 
 3. Click on Submit (or hit the enter key) to have the tool download the games and generate the tactics file.
