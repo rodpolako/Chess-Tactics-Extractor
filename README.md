@@ -16,7 +16,7 @@ Unlike other tools that make tactics from your games, this one does not do any a
 Just how fast is it?  At the maximum game limit (1000 games), generation of the tactics pgn is under a minute. This <ins>**includes**</ins> the download of the games themselves which takes about 50 seconds since the lichess API limits downloads to 20 games/second.
 
 ## Setup Instructions ##
-If you just want to use the app and and not bother hosting the page yourself, you can just use the live link [here](https://rodpolako.github.io/cte). The latest version of this app will always be hosted there.
+If you just want to use the app and and not bother hosting the page yourself, you can use the live link [here](https://rodpolako.github.io/cte). The latest version of this app will always be hosted there.
 
 If you want to host a copy on your own environment and/or make changes:
 
