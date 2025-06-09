@@ -11,9 +11,9 @@ What this application does is go through your Lichess games and generates a PGN 
 
 The resulting pgn was designed to work with [Chess PGN Trainer](https://rodpolako.github.io) to make it easy to work through the errors and test your knowledge, but you can use any training tool you'd like.
 
-Unlike other tools that make tactics from your games, this one does not do any analysis itself. Rather it requires that you analyze your game with the computer analysis in Lichess <ins>**before**</ins> using this tool. Only games that have been analyzed beforehand will be collected and processed. The benefit however, is that since the analysis has already been done, it is extrememly fast to generate the tactics file.  
+Unlike other tools that make tactics from your games, this one does not do any analysis itself. Instead, it requires that you analyze your game with the computer analysis in Lichess <ins>**before**</ins> using this tool. Only games that have been analyzed beforehand will be collected and processed. The benefit however, is that since the analysis has already been done, it is extrememly fast to generate the tactics file.  
 
-Just how fast is it?  At the maximum game limit (1000 games), generation of the tactics pgn is under than a minute. This <ins>**includes**</ins> the download of the games themselves which takes about 50 seconds since the lichess API limits downloads to 20 games/second.
+Just how fast is it?  At the maximum game limit (1000 games), generation of the tactics pgn is under a minute. This <ins>**includes**</ins> the download of the games themselves which takes about 50 seconds since the lichess API limits downloads to 20 games/second.
 
 ## Setup Instructions ##
 If you just want to use the app and and not bother hosting the page yourself, you can just use the live link [here](https://rodpolako.github.io/cte). The latest version of this app will always be hosted there.
